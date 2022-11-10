@@ -1,0 +1,30 @@
+.button {
+    box-sizing: border-box;
+    border: 1.5px solid #FFFFFF;
+    border-radius: 5px;
+    background-color: rgba(28,28,28,0);
+    color: #FFFFFF;
+    font-weight: 500;
+    text-align: center;
+    width: 204px;
+    height: 50px;
+    &_blue {
+        background: #3775ED;
+        border: none;
+    }
+    &_left {
+        margin-right: 23px;
+        margin-bottom: 30px;
+    }
+    &_center {
+        display: block;
+        margin: 0 auto;
+    }
+    &_mt130px {
+        display: block;
+        margin-top: 130px;
+    }
+    &_black {
+        background: #1A1919;
+    }
+}

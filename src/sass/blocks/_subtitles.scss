@@ -1,0 +1,16 @@
+.subtitle {
+    font-weight: 400;
+    font-size: 22px;
+    color: #E5E5E5;
+    &_center {
+        margin-top: 19px;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+    &_left {
+        margin: 20px 0 77px 0;
+    }
+    &_fs18{
+        font-size: 18px;
+    }
+}

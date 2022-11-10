@@ -1,0 +1,27 @@
+.footer {
+    &__wrapper {
+        margin: 45px 0 25px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &-item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 35px;
+            height: 35px;
+            border: 1px solid #C4C4C4;
+            border-radius: 10px;
+            margin: 0 20px;
+            img {
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+}

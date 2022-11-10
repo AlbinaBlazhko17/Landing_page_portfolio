@@ -1,0 +1,112 @@
+.website {
+    position: relative;
+    width: 100%;
+    min-height: 840px;
+    padding: 172px 0 60px 0;
+    &__row {
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 23px;
+        color: #FFFFFF;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 24px;
+    }
+    &__img {
+        filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.25));
+        margin-bottom: 23px;
+    }
+    &__subtitle {
+        font-weight: 500;
+        font-size: 24px;
+        margin-bottom: 14px;
+    }
+    &__text {
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 25px;
+    }
+    &__column {
+        position: relative;
+        padding: 39px 24px 34px 24px;
+        border-radius: 5px;
+        &:nth-child(1) {
+            background: #C96408;
+            z-index: 0;
+        }
+        &:nth-child(2) {
+            background: #7937BB;
+        }
+        &:nth-child(3){
+            background: #3775ED;
+        }
+    }
+    &__icons {
+        position: absolute;
+        width: 700px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: -47px;
+        margin-top: -68px;
+    }
+}
+.choise {
+    position: relative;
+    height: 120px;
+    background: #1A1919;
+    border-radius: 5px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    padding: 104px;
+    text-align: center;
+    &__logo {
+        img {
+            width: 60px;
+            height: 60px;
+            position: relative;
+        }
+    }
+}
+.logo {
+    position: relative;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin-top: -350px;
+    height: 328px;
+    img {
+        position: absolute;
+    }
+    &__webflow {
+        top: 33px;
+        left: calc(100% - 96%)
+    }
+    &__css {
+        top: 187px;
+        left: calc(100% - 98%);
+    }
+    &__html {
+        top: 247px;
+        left: calc(100% - 88%);
+    }
+    &__b {
+        top: 25px;
+        left: calc(100% - 50%);
+    }
+    &__js {
+        top: 254px;
+        left: calc(100% - 38%);
+    }
+    &__python {
+        top: 200px;
+        left: calc(100% - 10%);
+    }
+    &__vue {
+        top: 93px;
+        left: calc(100% - 8%);
+    }
+    &__react {
+        top: 29px;
+        left: calc(100% - 15%)
+    }
+}

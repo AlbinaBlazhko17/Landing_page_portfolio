@@ -1,0 +1,26 @@
+@import "base/_mixins.scss";
+@import "base/_variables.scss";
+@import "blocks/_header.scss";
+@import "blocks/_menu.scss";
+@import "blocks/_buttons.scss";
+@import "blocks/_promo.scss";
+@import "blocks/_website.scss";
+@import "blocks/_devs.scss";
+@import "blocks/_titles.scss";
+@import "blocks/_subtitles.scss";
+@import "blocks/_hrs.scss";
+@import "blocks/_feedbacks.scss";
+@import "blocks/_enjoy.scss";
+@import "blocks/_join.scss";
+@import "blocks/_footer.scss";
+@import "blocks/_media.scss";
+@import "blocks/_container.scss";
+* {
+    font-family: 'Aeonik';
+    
+}
+body {
+    width: 100%;
+    min-height: 1234px;
+    background: linear-gradient(180deg, #333333 0%, #090707 45%);
+}

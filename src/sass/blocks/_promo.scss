@@ -1,0 +1,25 @@
+.promo {
+    text-align: center;
+    color: #ffff;
+    &__title{
+        font-weight: 700;
+        line-height: 95px;
+        font-size: 95px;
+        span {
+            color: $main-color;
+        }
+    }
+    &__subtitle {
+        font-weight: 400;
+        font-size: 22px;
+        margin: 56px 0;
+        color: #E5E5E5;
+    }
+    &__img {
+        margin-top: 10px;
+        img {
+            width: 100%;
+            border-radius: 10px;
+        }
+    }
+}

@@ -1,0 +1,114 @@
+.devs {
+    padding-top: 50px;
+    padding-bottom: 130px;
+    &__title {
+        margin-top: 52px;
+    }
+    &__subtitle {
+        margin: 40px 0 200px 0;
+    }
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}
+
+.item-devs {
+    width: 284px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    &__img {
+        width: 100%;
+        overflow: hidden;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        border-radius: 5px;
+        img {
+            width: 100%;
+            display: block;
+            opacity: 1;
+            -webkit-transform: scale(1);
+            transform: scale(1);
+            -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+            transition: opacity 0.5s, -webkit-transform 0.5s;
+            transition: opacity 0.5s, transform 0.5s;
+            transition: opacity 0.5s, transform 0.5s, -webkit-transform 0.5s;
+        }
+    }
+    &:hover .item-devs__img {
+            img {
+                width: 100%;
+                opacity: 0.6;
+                -webkit-transform: scale(1.1);
+                -webkit-transform: scale(1.2);
+                transform: scale(1.2);
+            }
+    }
+
+    &__descr {
+        position: relative;
+        background: rgba(9, 7, 7, 0.4);
+        opacity: 1;
+        border-radius: 5px 5px 5px 5px;
+        width: 100%;
+        height: 90px;
+        margin-top: -54px;
+        -webkit-transform: translateY(45px);
+        transform: translateY(45px);
+        -webkit-transition: height 0.5s;
+        transition: height 0.5s;
+    }
+    &:hover .item-devs__descr{
+        opacity: 1;
+        -webkit-transform: translateY(-40%);
+        transform: translateY(-40%);
+        transition: 0.3s;
+    }
+    &:not(:hover)  .item-devs__descr{
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+        transition: 0.3s;
+    }
+    
+    &__name {
+        font-weight: 500;
+        font-size: 20px;
+        color: #FFFFFF;
+        padding: 14px 0px 8px 20px;
+    }
+    &__expl {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 24px;
+        visibility: hidden;
+    }
+    &:hover .item-devs__expl {
+        visibility: visible;
+        height: 75px;
+        margin-top: 8px;
+        transition: 0.5s;
+    }
+    &__logo {
+        margin-left: 20px;
+        img {
+            width: 20px;
+            height: 20px;
+        }
+    }
+    &__tech {
+        font-weight: 400;
+        font-size: 14px;
+        color: #FFFFFF;
+        margin: -21px auto 14px 50px;
+    }
+    &__massage {
+        width: 20px;
+        height: 20.04px;
+        margin-right: 19px;
+    }
+}

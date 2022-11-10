@@ -1,0 +1,18 @@
+.enjoy {
+    position: relative;
+    margin-bottom: 156px;
+    img {
+        display: block;
+        margin: 0 auto;
+        filter: opacity(75%);
+        width: 100%;
+    }
+    &__text {
+        position: absolute;
+        margin-top: -462px;
+        margin-left: 150px;
+    }
+    &__subtitle {
+        margin-left: 15px;
+    }
+}

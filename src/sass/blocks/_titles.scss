@@ -1,0 +1,17 @@
+.title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    &_center {
+        text-align: center;
+    }
+    &_left {
+        margin-top: 52px;
+    }
+    &_mt61px {
+        margin-top: 61px;
+    }
+    &_fs50 {
+        font-size: 50px;
+    }
+}

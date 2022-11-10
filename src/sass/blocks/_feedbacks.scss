@@ -1,0 +1,35 @@
+.feedback {
+    min-height: 890px;
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}
+.item-feedback {
+    width: 342px;
+    height: 118px;
+    background: #1A1919;
+    border-radius: 5px;
+    color: #fff;
+    padding: 21px 17px 16px 19px;
+    margin-right: 33px;
+    margin-bottom: 32px;
+
+    &__text {
+        font-weight: 300;
+        font-size: 14px;
+        margin-bottom: 25px;
+        line-height: 20px;
+    }
+    &__info {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+    }
+    &__name {
+        margin-top: -3px;
+        margin-left: 12px;
+    }
+}

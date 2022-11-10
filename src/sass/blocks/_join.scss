@@ -1,0 +1,14 @@
+.join {
+    width: 100%;
+    margin-bottom: 51px;
+    &__wrapper {
+        background: #3775ED;
+        border-radius: 10px;
+        margin: 0 auto;
+        margin-top: 51px;
+        padding: 48px 225px;
+    }
+    &__subtitle {
+        margin-bottom: 36px;
+    }
+}
